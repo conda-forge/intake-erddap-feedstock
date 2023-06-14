@@ -1,11 +1,11 @@
-About intake-erddap
-===================
+About intake-erddap-feedstock
+=============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/intake-erddap-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/axiom-data-science/intake-erddap
 
 Package license: BSD-2-Clause
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/intake-erddap-feedstock/blob/main/LICENSE.txt)
 
 Summary: ERDDAP plugin for Intake
 
