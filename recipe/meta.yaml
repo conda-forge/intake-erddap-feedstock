@@ -1,5 +1,5 @@
 {% set name = "intake-erddap" %}
-{% set version = "0.2.4" %}
+{% set version = "0.3.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/intake-erddap-{{ version }}.tar.gz
-  sha256: 1ce79d51ac9c36439597dfeb7cfe01f2007b7fc31f96ed51850894c9b7fcac02
+  sha256: f7a85cf95df73feafff1c668c1ba4db4f4cf956ad836e58096af2c23fe012453
 
 build:
   noarch: python
@@ -22,11 +22,14 @@ requirements:
     - pip
   run:
     - python >=3.8
+    - appdirs
     - erddapy
+    - fsspec
     - intake
     - intake-xarray
     - numpy
     - pandas
+    - requests
     - xarray
     - cf_pandas
 
