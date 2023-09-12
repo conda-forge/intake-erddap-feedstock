@@ -22,11 +22,14 @@ requirements:
     - pip
   run:
     - python >=3.8
+    - appdirs
     - erddapy
+    - fsspec
     - intake
     - intake-xarray
     - numpy
     - pandas
+    - requests
     - xarray
     - cf_pandas
 
