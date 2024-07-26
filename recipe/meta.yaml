@@ -1,13 +1,13 @@
 {% set name = "intake-erddap" %}
-{% set version = "0.4.0" %}
+{% set version = "0.5.2" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/intake-erddap-{{ version }}.tar.gz
-  sha256: 91b4164c9a6b38d62f65cf2400a00c8cc70e07109c0173dea4731dc052ec72ab
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
+  sha256: dd602cf55bb5e67630a359ee27cfd967a844b184dda6292f7ecbf5f8558f52d6
 
 build:
   noarch: python
